@@ -9,7 +9,7 @@ def listar_archivos_directorio(raiz=".", archivo_salida="estructura_proyecto.txt
             subindentacion = " " * 4 * (nivel + 1)
             for archivo in archivos:
                 f.write(f"{subindentacion}{archivo}\n")
-    print(f"📄 Estructura guardada en {archivo_salida}")
+    print(f" Estructura guardada en {archivo_salida}")
 
 if __name__ == "__main__":
     listar_archivos_directorio()

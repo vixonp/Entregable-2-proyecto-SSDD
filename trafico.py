@@ -75,4 +75,4 @@ def exportar_resultados(historial):
     plt.savefig(nombre_img2)
     plt.show()
 
-    print(f"\n✅ Resultados exportados en: {archivo}")
+    print(f"\n Resultados exportados en: {archivo}")

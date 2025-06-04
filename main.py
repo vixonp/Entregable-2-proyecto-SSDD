@@ -41,7 +41,7 @@ def menu_principal():
         elif opcion == "0":
             break
         else:
-            print("❌ Opción inválida. Intenta de nuevo.")
+            print("Opción inválida. Intenta de nuevo.")
 
 if __name__ == "__main__":
     menu_principal()

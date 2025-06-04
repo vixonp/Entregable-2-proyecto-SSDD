@@ -50,7 +50,7 @@ def check_container_running(nombre_contenedor):
 
 def iniciar_hadoop_en_contenedor(nombre_contenedor="pig_container"):
     """Inicia Hadoop en segundo plano dentro del contenedor y verifica que está corriendo."""
-    print("🚀 Iniciando Hadoop dentro del contenedor...")
+    print(" Iniciando Hadoop dentro del contenedor...")
 
     # Lanzar start_hadoop.sh sin esperar a que se quede vivo
     comando_inicio = [
@@ -60,7 +60,7 @@ def iniciar_hadoop_en_contenedor(nombre_contenedor="pig_container"):
     subprocess.run(comando_inicio)
 
     # Esperar unos segundos para que los servicios se levanten
-    print("⏳ Esperando a que Hadoop termine de levantar servicios...")
+    print(" Esperando a que Hadoop termine de levantar servicios...")
     time.sleep(10)  # puedes subir a 15 si hace falta
 
     # Verificar que los procesos de Hadoop están corriendo con jps
@@ -68,7 +68,7 @@ def iniciar_hadoop_en_contenedor(nombre_contenedor="pig_container"):
     resultado = subprocess.run(comando_jps, capture_output=True, text=True)
 
     if resultado.returncode != 0:
-        print("❌ No se pudo ejecutar jps para verificar servicios Hadoop.")
+        print(" No se pudo ejecutar jps para verificar servicios Hadoop.")
         return False
 
     procesos = resultado.stdout.strip().splitlines()
@@ -77,12 +77,12 @@ def iniciar_hadoop_en_contenedor(nombre_contenedor="pig_container"):
     activos = [proc for proc in procesos if any(p in proc for p in procesos_requeridos)]
 
     if len(activos) >= 3:  # espera al menos 3 de 4 para considerarlo válido
-        print("✅ Hadoop iniciado correctamente dentro del contenedor:")
+        print(" Hadoop iniciado correctamente dentro del contenedor:")
         for proc in activos:
             print("   -", proc)
         return True
     else:
-        print("⚠️ Servicios de Hadoop no parecen estar activos todavía.")
+        print(" Servicios de Hadoop no parecen estar activos todavía.")
         print(resultado.stdout)
         return False
 
@@ -192,7 +192,7 @@ def ejecutar_pig_paralelo():
         return
 
     if not iniciar_hadoop_en_contenedor():
-        print("❌ Proceso detenido porque no se pudo iniciar Hadoop.")
+        print(" Proceso detenido porque no se pudo iniciar Hadoop.")
         return
 
     # 1. Convertir Excel a CSV (en el host)
@@ -301,14 +301,14 @@ def ejecutar_pig_local():
     scripts = [
         {
             "script": "test.pig",
-            "output_dir": "/data/output_tipo_calle",  # 🔁 CORREGIDO: sin .csv
+            "output_dir": "/data/output_tipo_calle",  
             "result_file": "data/output_tipo_calle.csv",
             "xlsx_file": "data/output_tipo_calle.xlsx",
             "columnas": ["tipo", "calle", "cantidad"]
         },
         {
             "script": "test_hora.pig",
-            "output_dir": "/data/output_por_hora",  # 🔁 CORREGIDO: sin .csv
+            "output_dir": "/data/output_por_hora",  
             "result_file": "data/output_por_hora.csv",
             "xlsx_file": "data/output_por_hora.xlsx",
             "columnas": ["hora", "cantidad"]
@@ -336,16 +336,16 @@ def ejecutar_pig_local():
             proceso = subprocess.run(comando, stdout=log, stderr=subprocess.STDOUT, text=True)
 
         if proceso.returncode != 0:
-            print(f"❌ Error al ejecutar {cfg['script']}. Revisa el log: {log_path}")
+            print(f" Error al ejecutar {cfg['script']}. Revisa el log: {log_path}")
             continue
 
-        print(f"✅ {cfg['script']} completado. Log guardado en {log_path}")
+        print(f" {cfg['script']} completado. Log guardado en {log_path}")
 
         if os.path.exists(cfg["result_file"]):
             try:
                 os.remove(cfg["result_file"])
             except Exception as e:
-                print(f"⚠️ No se pudo eliminar el archivo anterior {cfg['result_file']}: {e}")
+                print(f" No se pudo eliminar el archivo anterior {cfg['result_file']}: {e}")
                 continue
 
         salida_contenedor = f"{cfg['output_dir']}/part-r-00000"
@@ -355,19 +355,19 @@ def ejecutar_pig_local():
         )
 
         if resultado.returncode != 0:
-            print(f"❌ No se pudo copiar el resultado desde el contenedor: {resultado.stderr.strip()}")
+            print(f" No se pudo copiar el resultado desde el contenedor: {resultado.stderr.strip()}")
             continue
 
         if not os.path.exists(cfg["result_file"]) or os.path.getsize(cfg["result_file"]) == 0:
-            print(f"❌ El archivo {cfg['result_file']} no se creó correctamente o está vacío.")
+            print(f" El archivo {cfg['result_file']} no se creó correctamente o está vacío.")
             continue
 
         try:
             df = pd.read_csv(cfg["result_file"], sep="\t", names=cfg["columnas"])
             df.to_excel(cfg["xlsx_file"], index=False)
-            print(f"📁 Exportado a Excel: {cfg['xlsx_file']}")
+            print(f" Exportado a Excel: {cfg['xlsx_file']}")
         except Exception as e:
-            print(f"❌ Error procesando salida de {cfg['script']}: {e}")
+            print(f" Error procesando salida de {cfg['script']}: {e}")
 
 
 # Las funciones mostrar_resultado_hora y mostrar_resultado_pig no cambian,

@@ -8,7 +8,7 @@ import os
 def graficar_tipo_calle():
     ruta = "data/output_tipo_calle.xlsx"
     if not os.path.exists(ruta):
-        print("❌ Archivo 'output_tipo_calle.xlsx' no encontrado.")
+        print(" Archivo 'output_tipo_calle.xlsx' no encontrado.")
         return
 
     df = pd.read_excel(ruta)
@@ -24,13 +24,13 @@ def graficar_tipo_calle():
     plt.tight_layout()
     output_path = "distribucion_tipos_evento.png"
     plt.savefig(output_path)
-    print(f"✅ Gráfico guardado como: {output_path}")
+    print(f" Gráfico guardado como: {output_path}")
     plt.show()
 
 def graficar_por_hora():
     ruta = "data/output_por_hora.xlsx"
     if not os.path.exists(ruta):
-        print("❌ Archivo 'output_por_hora.xlsx' no encontrado.")
+        print(" Archivo 'output_por_hora.xlsx' no encontrado.")
         return
 
     df = pd.read_excel(ruta)
@@ -47,5 +47,5 @@ def graficar_por_hora():
     plt.tight_layout()
     output_path = "evolucion_eventos_por_hora.png"
     plt.savefig(output_path)
-    print(f"✅ Gráfico guardado como: {output_path}")
+    print(f" Gráfico guardado como: {output_path}")
     plt.show()

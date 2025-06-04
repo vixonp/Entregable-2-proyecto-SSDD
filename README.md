@@ -33,7 +33,7 @@ Esta segunda entrega expande el sistema distribuido de análisis de eventos de t
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/vixonp/entregable2.git
+git clone https://github.com/vixonp/Entregable-2-proyecto-SSDD.git
 cd sistemas_distribuidos
 ```
 
@@ -97,28 +97,6 @@ Los gráficos resultantes son:
 
 ---
 
-## Estructura del Repositorio
-
-```
-├── main.py                     # Menú principal del sistema
-├── scraper.py                  # Web scraping de Waze
-├── db.py                       # Conexión y consultas a MySQL
-├── trafico.py                  # Simulación de tráfico y caché
-├── funciones.py                # Gráficos y visualización
-├── pig_processor.py            # Ejecución de scripts Pig
-├── data/
-│   ├── eventos.csv / eventos.xlsx
-│   ├── output_tipo_calle.xlsx
-│   ├── output_por_hora.xlsx
-├── informe/
-│   └── main.tex                # Informe en LaTeX
-├── docker-compose.yml
-├── Dockerfile.pig
-├── README.md
-```
-
----
-
 ## Resultados de la Entrega 2
 
 Se generaron:
@@ -134,7 +112,7 @@ Se generaron:
 
 ## Enlaces
 
-- [Repositorio GitHub](https://github.com/vixonp/entregable2.git)
+- [Repositorio GitHub](https://github.com/vixonp/Entregable-2-proyecto-SSDD.git)
 - [Entrega 1 README](./README.md)
 - [Informe LaTeX (PDF)](./tarea_2_Sistemas_Distribuidos)
 

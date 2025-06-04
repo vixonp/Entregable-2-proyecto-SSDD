@@ -103,4 +103,4 @@ def ejecutar_scraping():
     cursor.close()
     conn.close()
     driver.quit()
-    print(f"\n✅ Extracción completada. Total de eventos capturados: {total_guardados}")
+    print(f"\n Extracción completada. Total de eventos capturados: {total_guardados}")
