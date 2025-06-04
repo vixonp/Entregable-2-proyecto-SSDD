@@ -1,0 +1,7 @@
+pandas
+numpy
+selenium
+matplotlib
+redis
+mysql-connector-python
+openpyxl

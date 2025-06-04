@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+  mysql_eventos:
+    image: mysql:8.0
+    container_name: mysql_eventos
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: pass123
+      MYSQL_DATABASE: eventosdb
+      MYSQL_USER: usuario
+      MYSQL_PASSWORD: pass123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks: 
+      - my_network 
+
+  redis:
+    image: redis:latest
+    container_name: redis-server
+    ports:
+      - "6379:6379"
+    networks: 
+      - my_network
+
+  pig:
+    build:
+      context: .
+      dockerfile: Dockerfile.pig 
+    container_name: pig_container
+
+    ports:
+      - "9870:9870" 
+      - "8088:8088" 
+      - "2222:22"
+                    
+    volumes:
+      - ./data:/data 
+    tty: true 
+    networks: 
+      - my_network 
+
+volumes:
+  mysql_data:
+
+networks:
+  my_network:
+    driver: bridge

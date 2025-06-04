@@ -1,0 +1,413 @@
+LOL	Macul	37
+LOL	Maipú	29
+LOL	Lo Prado	22
+LOL	Pudahuel	28
+LOL	Recoleta	17
+LOL	Las Rejas	23
+LOL	Huechuraba	34
+LOL	San Miguel	26
+LOL	La Cisterna	23
+LOL	Peñalolén	20
+LOL	Providencia	24
+LOL	Puente Alto	28
+LOL	Lo Barnechea	20
+LOL	Plaza Italia	25
+LOL	San Bernardo	31
+LOL	San Joaquín	25
+LOL	Vespucio Sur	21
+LOL	Independencia	27
+LOL	Los Dominicos	29
+LOL	Quinta Normal	21
+LOL	Alameda Centro	34
+LOL	Av. La Florida	20
+LOL	Grecia Ñuñoa	20
+LOL	Vespucio Norte	34
+LOL	Costanera Norte	21
+LOL	Autopista Central	27
+LOL	Estación Central	28
+LOL	Camino a Melipilla	27
+LOL	Apoquindo Las Condes	21
+LOL	Ñuñoa Plaza Egaña	32
+sad	Autopista Central	1
+shy	La Cisterna	1
+shy	San Bernardo	1
+shy	Vespucio Sur	1
+baby	Macul	1
+baby	Maipú	1
+baby	Pudahuel	1
+baby	Recoleta	1
+baby	Huechuraba	1
+baby	Peñalolén	1
+baby	Providencia	1
+baby	Lo Barnechea	2
+baby	San Joaquín	1
+baby	Vespucio Sur	1
+baby	Quinta Normal	1
+baby	Alameda Centro	3
+baby	Vespucio Norte	4
+baby	Costanera Norte	3
+baby	Autopista Central	1
+baby	Camino a Melipilla	4
+baby	Ñuñoa Plaza Egaña	2
+cool	Macul	2
+cool	Lo Prado	3
+cool	Recoleta	2
+cool	Las Rejas	3
+cool	San Miguel	1
+cool	La Cisterna	4
+cool	Peñalolén	1
+cool	Providencia	5
+cool	Puente Alto	4
+cool	Lo Barnechea	3
+cool	Plaza Italia	1
+cool	San Bernardo	1
+cool	San Joaquín	1
+cool	Independencia	3
+cool	Los Dominicos	4
+cool	Quinta Normal	2
+cool	Alameda Centro	2
+cool	Av. La Florida	1
+cool	Grecia Ñuñoa	6
+cool	Vespucio Norte	3
+cool	Costanera Norte	4
+cool	Autopista Central	1
+cool	Estación Central	2
+cool	Camino a Melipilla	3
+cool	Apoquindo Las Condes	3
+geek	Maipú	1
+geek	Lo Prado	1
+geek	Providencia	1
+geek	Puente Alto	1
+geek	San Bernardo	1
+geek	Vespucio Sur	1
+geek	Av. La Florida	1
+geek	Apoquindo Las Condes	1
+tipo	calle	0
+wild	Las Rejas	1
+wild	Puente Alto	1
+wild	San Joaquín	3
+wild	Alameda Centro	1
+wild	Av. La Florida	1
+wild	Costanera Norte	1
+wild	Apoquindo Las Condes	1
+wild	Ñuñoa Plaza Egaña	2
+happy	Macul	64
+happy	Maipú	70
+happy	Lo Prado	61
+happy	Pudahuel	52
+happy	Recoleta	55
+happy	Las Rejas	60
+happy	Huechuraba	57
+happy	San Miguel	48
+happy	La Cisterna	60
+happy	Peñalolén	58
+happy	Providencia	60
+happy	Puente Alto	53
+happy	Lo Barnechea	51
+happy	Plaza Italia	60
+happy	San Bernardo	77
+happy	San Joaquín	49
+happy	Vespucio Sur	55
+happy	Independencia	45
+happy	Los Dominicos	58
+happy	Quinta Normal	47
+happy	Alameda Centro	53
+happy	Av. La Florida	49
+happy	Grecia Ñuñoa	58
+happy	Vespucio Norte	58
+happy	Costanera Norte	55
+happy	Autopista Central	47
+happy	Estación Central	72
+happy	Camino a Melipilla	66
+happy	Apoquindo Las Condes	64
+happy	Ñuñoa Plaza Egaña	52
+ninja	Macul	31
+ninja	Maipú	17
+ninja	Lo Prado	16
+ninja	Pudahuel	12
+ninja	Recoleta	21
+ninja	Las Rejas	23
+ninja	Huechuraba	23
+ninja	San Miguel	21
+ninja	La Cisterna	19
+ninja	Peñalolén	32
+ninja	Providencia	36
+ninja	Puente Alto	19
+ninja	Lo Barnechea	30
+ninja	Plaza Italia	25
+ninja	San Bernardo	20
+ninja	San Joaquín	25
+ninja	Vespucio Sur	31
+ninja	Independencia	24
+ninja	Los Dominicos	18
+ninja	Quinta Normal	41
+ninja	Alameda Centro	20
+ninja	Av. La Florida	29
+ninja	Grecia Ñuñoa	29
+ninja	Vespucio Norte	21
+ninja	Costanera Norte	13
+ninja	Autopista Central	23
+ninja	Estación Central	24
+ninja	Camino a Melipilla	19
+ninja	Apoquindo Las Condes	24
+ninja	Ñuñoa Plaza Egaña	25
+proud	Pudahuel	1
+sunny	Macul	21
+sunny	Maipú	29
+sunny	Lo Prado	23
+sunny	Pudahuel	24
+sunny	Recoleta	17
+sunny	Las Rejas	24
+sunny	Huechuraba	22
+sunny	San Miguel	24
+sunny	La Cisterna	25
+sunny	Peñalolén	33
+sunny	Providencia	31
+sunny	Puente Alto	30
+sunny	Lo Barnechea	18
+sunny	Plaza Italia	16
+sunny	San Bernardo	24
+sunny	San Joaquín	24
+sunny	Vespucio Sur	25
+sunny	Independencia	25
+sunny	Los Dominicos	27
+sunny	Quinta Normal	21
+sunny	Alameda Centro	25
+sunny	Av. La Florida	15
+sunny	Grecia Ñuñoa	17
+sunny	Vespucio Norte	30
+sunny	Costanera Norte	22
+sunny	Autopista Central	29
+sunny	Estación Central	26
+sunny	Camino a Melipilla	29
+sunny	Apoquindo Las Condes	24
+sunny	Ñuñoa Plaza Egaña	22
+hazard	Macul	1
+hazard	Maipú	3
+hazard	Lo Prado	1
+hazard	Las Rejas	3
+hazard	Huechuraba	3
+hazard	San Miguel	1
+hazard	La Cisterna	3
+hazard	Providencia	3
+hazard	Puente Alto	4
+hazard	Lo Barnechea	4
+hazard	Plaza Italia	2
+hazard	San Bernardo	4
+hazard	San Joaquín	2
+hazard	Vespucio Sur	2
+hazard	Independencia	5
+hazard	Los Dominicos	3
+hazard	Quinta Normal	3
+hazard	Alameda Centro	4
+hazard	Av. La Florida	3
+hazard	Grecia Ñuñoa	4
+hazard	Vespucio Norte	5
+hazard	Costanera Norte	3
+hazard	Autopista Central	3
+hazard	Estación Central	4
+hazard	Camino a Melipilla	3
+inlove	Macul	22
+inlove	Maipú	20
+inlove	Lo Prado	23
+inlove	Pudahuel	16
+inlove	Recoleta	25
+inlove	Las Rejas	25
+inlove	Huechuraba	24
+inlove	San Miguel	14
+inlove	La Cisterna	21
+inlove	Peñalolén	25
+inlove	Providencia	29
+inlove	Puente Alto	26
+inlove	Lo Barnechea	22
+inlove	Plaza Italia	32
+inlove	San Bernardo	24
+inlove	San Joaquín	26
+inlove	Vespucio Sur	21
+inlove	Independencia	22
+inlove	Los Dominicos	23
+inlove	Quinta Normal	20
+inlove	Alameda Centro	25
+inlove	Av. La Florida	29
+inlove	Grecia Ñuñoa	26
+inlove	Vespucio Norte	21
+inlove	Costanera Norte	20
+inlove	Autopista Central	27
+inlove	Estación Central	18
+inlove	Camino a Melipilla	20
+inlove	Apoquindo Las Condes	24
+inlove	Ñuñoa Plaza Egaña	27
+police	Macul	2
+police	Lo Prado	2
+police	Pudahuel	1
+police	Recoleta	2
+police	Las Rejas	3
+police	Huechuraba	1
+police	San Miguel	3
+police	Peñalolén	1
+police	Providencia	2
+police	Puente Alto	3
+police	Lo Barnechea	2
+police	Plaza Italia	1
+police	San Joaquín	1
+police	Vespucio Sur	1
+police	Independencia	2
+police	Los Dominicos	2
+police	Quinta Normal	2
+police	Alameda Centro	2
+police	Av. La Florida	1
+police	Grecia Ñuñoa	4
+police	Vespucio Norte	1
+police	Costanera Norte	3
+police	Autopista Central	3
+police	Estación Central	2
+police	Camino a Melipilla	1
+police	Apoquindo Las Condes	3
+police	Ñuñoa Plaza Egaña	5
+sleepy	Macul	1
+sleepy	Las Rejas	1
+sleepy	La Cisterna	1
+sleepy	Lo Barnechea	1
+sleepy	Plaza Italia	1
+sleepy	San Bernardo	1
+sleepy	Ñuñoa Plaza Egaña	1
+speedy	Macul	2
+speedy	Maipú	4
+speedy	Lo Prado	1
+speedy	Pudahuel	3
+speedy	Huechuraba	3
+speedy	La Cisterna	1
+speedy	Peñalolén	3
+speedy	Providencia	2
+speedy	Puente Alto	2
+speedy	Lo Barnechea	2
+speedy	Plaza Italia	1
+speedy	San Bernardo	1
+speedy	San Joaquín	2
+speedy	Vespucio Sur	3
+speedy	Independencia	1
+speedy	Quinta Normal	2
+speedy	Av. La Florida	4
+speedy	Grecia Ñuñoa	2
+speedy	Costanera Norte	2
+speedy	Autopista Central	3
+speedy	Estación Central	1
+speedy	Camino a Melipilla	3
+speedy	Apoquindo Las Condes	2
+zombie	Macul	17
+zombie	Maipú	24
+zombie	Lo Prado	17
+zombie	Pudahuel	23
+zombie	Recoleta	16
+zombie	Las Rejas	22
+zombie	Huechuraba	17
+zombie	San Miguel	24
+zombie	La Cisterna	15
+zombie	Peñalolén	21
+zombie	Providencia	16
+zombie	Puente Alto	28
+zombie	Lo Barnechea	15
+zombie	Plaza Italia	15
+zombie	San Bernardo	23
+zombie	San Joaquín	26
+zombie	Vespucio Sur	21
+zombie	Independencia	26
+zombie	Los Dominicos	32
+zombie	Quinta Normal	18
+zombie	Alameda Centro	22
+zombie	Av. La Florida	23
+zombie	Grecia Ñuñoa	21
+zombie	Vespucio Norte	18
+zombie	Costanera Norte	23
+zombie	Autopista Central	20
+zombie	Estación Central	22
+zombie	Camino a Melipilla	15
+zombie	Apoquindo Las Condes	17
+zombie	Ñuñoa Plaza Egaña	23
+accident	Los Dominicos	1
+peaceful	Macul	41
+peaceful	Maipú	37
+peaceful	Lo Prado	27
+peaceful	Pudahuel	30
+peaceful	Recoleta	27
+peaceful	Las Rejas	32
+peaceful	Huechuraba	43
+peaceful	San Miguel	25
+peaceful	La Cisterna	20
+peaceful	Peñalolén	37
+peaceful	Providencia	32
+peaceful	Puente Alto	22
+peaceful	Lo Barnechea	32
+peaceful	Plaza Italia	39
+peaceful	San Bernardo	44
+peaceful	San Joaquín	31
+peaceful	Vespucio Sur	24
+peaceful	Independencia	32
+peaceful	Los Dominicos	40
+peaceful	Quinta Normal	26
+peaceful	Alameda Centro	36
+peaceful	Av. La Florida	37
+peaceful	Grecia Ñuñoa	33
+peaceful	Vespucio Norte	26
+peaceful	Costanera Norte	36
+peaceful	Autopista Central	19
+peaceful	Estación Central	35
+peaceful	Camino a Melipilla	28
+peaceful	Apoquindo Las Condes	37
+peaceful	Ñuñoa Plaza Egaña	31
+chit-chat	Maipú	1
+chit-chat	Recoleta	3
+chit-chat	Las Rejas	1
+chit-chat	La Cisterna	1
+chit-chat	Lo Barnechea	1
+chit-chat	Plaza Italia	1
+chit-chat	Los Dominicos	1
+chit-chat	Ñuñoa Plaza Egaña	1
+sarcastic	Lo Barnechea	1
+sarcastic	San Bernardo	1
+sarcastic	Quinta Normal	2
+sarcastic	Costanera Norte	1
+desconocido	Macul	123
+desconocido	Maipú	105
+desconocido	Lo Prado	111
+desconocido	Pudahuel	108
+desconocido	Recoleta	119
+desconocido	Las Rejas	89
+desconocido	Huechuraba	119
+desconocido	San Miguel	127
+desconocido	La Cisterna	140
+desconocido	Peñalolén	136
+desconocido	Providencia	101
+desconocido	Puente Alto	118
+desconocido	Lo Barnechea	114
+desconocido	Plaza Italia	123
+desconocido	San Bernardo	121
+desconocido	San Joaquín	102
+desconocido	Vespucio Sur	117
+desconocido	Independencia	106
+desconocido	Los Dominicos	113
+desconocido	Quinta Normal	107
+desconocido	Alameda Centro	119
+desconocido	Av. La Florida	111
+desconocido	Grecia Ñuñoa	121
+desconocido	Vespucio Norte	112
+desconocido	Costanera Norte	113
+desconocido	Autopista Central	123
+desconocido	Estación Central	103
+desconocido	Camino a Melipilla	127
+desconocido	Apoquindo Las Condes	115
+desconocido	Ñuñoa Plaza Egaña	114
+road-closed	Lo Prado	2
+road-closed	Pudahuel	4
+road-closed	Recoleta	1
+road-closed	Puente Alto	1
+road-closed	Lo Barnechea	1
+road-closed	Plaza Italia	1
+road-closed	San Joaquín	2
+road-closed	Quinta Normal	1
+road-closed	Alameda Centro	1
+road-closed	Costanera Norte	2
+road-closed	Autopista Central	1
+road-closed	Estación Central	3
+road-closed	Camino a Melipilla	2
+road-closed	Ñuñoa Plaza Egaña	1
